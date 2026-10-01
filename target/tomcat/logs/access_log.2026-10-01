@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [01/Oct/2026:11:43:28 +0000] "GET /library-book-search/ HTTP/1.1" 200 1183 http-bio-8081-exec-1 24
+0:0:0:0:0:0:0:1 - - [01/Oct/2026:11:43:28 +0000] "GET /library-book-search/css/style.css HTTP/1.1" 200 3391 http-bio-8081-exec-3 2
+0:0:0:0:0:0:0:1 - - [01/Oct/2026:11:43:28 +0000] "GET /library-book-search/js/script.js HTTP/1.1" 200 2409 http-bio-8081-exec-4 2
+0:0:0:0:0:0:0:1 - - [01/Oct/2026:11:43:28 +0000] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8081-exec-5 0
+0:0:0:0:0:0:0:1 - - [01/Oct/2026:11:44:26 +0000] "GET /library-book-search/search?query=Orwell HTTP/1.1" 200 73 http-bio-8081-exec-6 4

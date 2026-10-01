@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Book Search</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <span class="logo">📚 Library Book Search</span>
+            <p class="tagline">Find your next read from our catalog</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="search-panel">
+            <label for="searchInput" class="search-label">Search by title or author</label>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="e.g. Orwell, Clean Code, Sapiens...">
+                <button id="searchBtn">Search</button>
+            </div>
+        </section>
+
+        <section id="status" class="status"></section>
+
+        <section id="results" class="results-grid"></section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>Library Book Search &mdash; DevOps Pipeline Demo Project</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
